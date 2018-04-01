@@ -1,0 +1,43 @@
+<!DOCTYPE>
+<html>
+<title>This is Text4.</title>
+<style>
+*{margin:0; padding:0;}
+#box{
+	width:400px;
+	height:200px;
+	background-color: #ccc;
+	position: absolute;
+	top:50%;
+	left: 25%;
+	transform: translateY(-50%);
+	right: 25%;
+	
+	margin:0 auto;	
+}
+#quadrant1{
+	     width: 50px; 
+	     height: 50px; 
+	     background: #fc0;
+	     position:absolute; 	     
+	     border-radius: 0 0 100% 0;
+	     left: 0;
+	     top: 0;
+	  } 
+#quadrant2{ 
+	     width: 50px; 
+	     height: 50px; 
+	     background: #fc0;
+	     position:absolute; 
+	       border-radius: 100% 0 0 0;
+	       bottom:0;
+	       right:0;
+	   } 
+</style>
+<body>
+<div id="box">
+<div id="quadrant1"></div>
+<div id="quadrant2"></div>
+</div>
+</body>
+</html>

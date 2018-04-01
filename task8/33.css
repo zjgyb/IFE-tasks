@@ -1,0 +1,115 @@
+#media{
+	width:100%;
+	margin: 0 auto;
+}
+
+#row{
+	float: left;
+	margin:20px;
+	height: 50px;	
+}
+#row1{
+	float: left;
+	margin:20px;
+	height: 50px;	
+}
+#row2{
+	float: left;
+	margin:20px;
+	height: 50px;	
+}
+#row3{
+	float: left;
+	margin:20px;
+	height: 50px;	
+}
+#row4{
+	float: left;
+	margin:20px;
+	height: 50px;	
+}
+#row5{
+	float: left;
+	margin:20px;
+	height: 50px;	
+}
+#row6{
+	float: left;
+	margin:20px;
+	height: 50px;	
+}
+#row7{
+	float: left;
+	margin:20px;
+	height: 50px;	
+}
+.grid{
+	height: 50px;
+	float: left;
+	outline: 1px solid #999;
+	background-color: #eee;
+}
+@media(min-width: 768px)
+{
+	#row{
+	width:30%;	
+}
+    #row1{
+    	width: 30%;
+    }
+    #row2{
+    	width: 22%;
+    }
+    #row3{
+    	width: 44%;
+    }
+    #row4{
+    	width:7%;
+    }
+    #row5{
+    	width: 14%;
+    }
+    #row6{
+    	width: 14%;
+    }
+    #row7{
+    	width: 42%;
+    }
+	.d-grid-2{width: 23%;}
+	.d-grid-3{width: 33%;}
+	.d-grid-4{width: 16%;}
+	.d-grid-5{width: 100%;}
+	.d-grid-6{width: 50%;}
+}
+@media(max-width:768px)
+{
+	#row{
+		width: 42%;
+	}
+	#row1{
+		width: 91.5%;
+	}
+	#row2{
+		width: 19.2%;
+	}
+	#row3{
+		width: 38.4%;
+	}
+	#row4{
+		width: 13.1%;
+	}
+	#row5{
+		width: 52.4%;
+	}
+	#row6{
+		width: 21%;
+	}
+	#row7{
+		width: 21%;
+	}
+	.m-grid-1{width:16%;}
+	.m-grid-2{width:8%;}
+	.m-grid-3{width:33%;}
+	.m-grid-4{width:50%;}
+	.m-grid-5{width:12%;}
+}
